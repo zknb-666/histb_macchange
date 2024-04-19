@@ -119,7 +119,7 @@ int main(int argc,char *argv[])
     if(argc!=2)
     {
         printf( "\r\nUsage: changemac [MacAddr] :\n"
-		        "\r\nExample:changemac AA:BB:CC:DD:EE\n\n");
+		        "\r\nExample:changemac AA:BB:CC:DD:EE:FF\n\n");
         exit(0);
     }
     if(!isaddr(argv[1])){
